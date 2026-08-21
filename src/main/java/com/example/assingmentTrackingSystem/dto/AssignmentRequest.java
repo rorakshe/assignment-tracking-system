@@ -22,6 +22,7 @@ public class AssignmentRequest {
     @Size(min = 10, max = 1000, message = "Description must be between 10 and 1000 characters")
     private String description;
 
+
     @NotBlank(message = "Subject is required")
     private String subject;
 
