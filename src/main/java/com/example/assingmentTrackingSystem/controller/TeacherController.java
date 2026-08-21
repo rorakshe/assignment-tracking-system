@@ -59,7 +59,7 @@ public class TeacherController {
         TeacherResponse response =
                 teacherService.updateTeacher(id, teacherRequest);
 
-        return     ResponseEntity.ok(response);
+        return    ResponseEntity.ok(response);
     }
 
 
